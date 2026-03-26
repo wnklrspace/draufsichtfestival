@@ -132,7 +132,7 @@ export default function Countdown({ targetIso }: Props) {
   return (
     <p
       className={[
-        "absolute bottom-[clamp(0.8rem,1.8vw,1.5rem)] left-[clamp(0.7rem,1.4vw,1.35rem)] z-[2] m-0 whitespace-nowrap text-[clamp(1.55rem,6.6vw,4.9rem)] leading-[0.92] tracking-[-0.065em] text-[rgba(255,250,246,0.96)] [font-family:Inter,'Helvetica_Neue',Arial,sans-serif] font-normal [font-variation-settings:'wght'_400] [font-variant-numeric:lining-nums_tabular-nums] [text-shadow:0_0_18px_rgba(255,255,255,0.22)]",
+        "absolute bottom-[clamp(2rem,1.8vw,3rem)] left-[clamp(2rem,1.8vw,3rem)] z-[2] m-0 whitespace-nowrap text-[clamp(3rem,6.6vw,4.9rem)] leading-[0.92] tracking-[-0.065em] text-[rgba(255,250,246,0.96)] [font-family:Inter,'Helvetica_Neue',Arial,sans-serif] font-normal [font-variation-settings:'wght'_400] [font-variant-numeric:lining-nums_tabular-nums] [text-shadow:0_0_18px_rgba(255,255,255,0.22)]",
         opacityClass,
       ].join(" ")}
       aria-label={ariaLabel}
